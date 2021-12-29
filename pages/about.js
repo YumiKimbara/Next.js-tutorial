@@ -1,12 +1,10 @@
-import Head from "next/head";
-import React from "react";
+import Meta from "../components/Meta";
 
 const about = () => {
   return (
     <>
-      <Head>
-        <title>about</title>
-      </Head>
+      //defaultではないユニークなmeta情報を付け加えることができる。(SEOが良くなる)
+      <Meta title="About" />
       <h1>About</h1>
     </>
   );
